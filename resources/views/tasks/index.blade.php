@@ -13,6 +13,7 @@
     @endif
     
     {!! link_to_route('tasks.create', '新規タスクの投稿') !!}
+    <li>{!! link_to_route('tasks.create', 'status') !!}</li>
                
    
 
